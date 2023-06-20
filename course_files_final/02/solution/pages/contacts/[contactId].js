@@ -10,6 +10,8 @@ export default function Contact() {
     return(
     <Layout>
         <a href="#" onClick={() => router.back()}>Back</a>
-        <h2>Contact: {last.toUpperCase()}, {first}</h2>
+        <h2>Name: {last.toUpperCase()}, {first}</h2>
+        <p>ID: {contact.id}</p>
+        <h3>Country: {contact.country}</h3>
     </Layout>)
 }

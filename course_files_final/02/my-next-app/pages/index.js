@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to my Elearning site
+          Welcome to my E-learning site
         </h1>
 
         <p className={styles.description}>
@@ -45,6 +45,12 @@ export default function Home() {
           <Link href="/learn/vue">
             <a className={styles.card}>
               <h2>Learn Vue &rarr;</h2>
+            </a>
+          </Link>
+
+          <Link href="/learn/koko">
+            <a className={styles.card}>
+              <h2>Learn Koko &rarr;</h2>
             </a>
           </Link>
 
