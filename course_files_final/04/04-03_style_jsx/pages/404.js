@@ -6,7 +6,7 @@ export default function NotFound() {
             <style jsx>
                 {`
                     h1 {
-                        color: chocolate;
+                        color: orange;
                     }
                 `}
             </style>
