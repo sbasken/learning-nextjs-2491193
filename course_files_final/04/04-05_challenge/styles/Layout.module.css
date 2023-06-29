@@ -1,0 +1,12 @@
+.container {
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.link {
+    color: purple;
+}
+
+.link:hover {
+    color: brown;
+}

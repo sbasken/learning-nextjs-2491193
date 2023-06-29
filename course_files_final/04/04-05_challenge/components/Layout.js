@@ -1,4 +1,4 @@
-
+import styles from "../styles/Layout.module.css"
 import Link from "next/link"
 
 export default function Layout({ children }) {
@@ -21,11 +21,11 @@ export default function Layout({ children }) {
         }
       ];
       return(
-          <>
+          <div className={styles.container}>
            {links.map(link => {
-              return <Link href={link.path}><a key={link.title}>{link.title}{" "}</a></Link>;
+              return <Link href={link.path}><a className={styles.link} key={link.title}>{link.title}{" "}</a></Link>;
            })}
             {children}
-          </>
+          </div>
       )
 }
