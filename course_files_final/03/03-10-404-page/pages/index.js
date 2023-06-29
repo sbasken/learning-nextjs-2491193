@@ -16,6 +16,11 @@ export default function Home() {
       title: "Popular", 
       desc: "Read the most popular articles on the New York Times",
       path: "/popular"
+    }, 
+    {
+      title: "Sections", 
+      desc: "Check out varieties of sections on the New York Times",
+      path: "/sections"
     }
   ];
   const [query, getQuery] = useState();
